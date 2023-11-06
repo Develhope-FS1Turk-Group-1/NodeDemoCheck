@@ -9,6 +9,10 @@ dotenv.config();
 app.use(bodyParser.json());
 app.use(cors());
 
+
+
+
+
 const connectionString = process.env.DB_URL;
 const client = new Client({
 	connectionString: connectionString,
